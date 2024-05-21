@@ -1,0 +1,84 @@
+:root {
+  --Warna-1: #ffa500;
+  --warnaJumb: #ffc4004d;
+}
+
+.warna-web {
+  background: var(--Warna-1);
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: var(--warnaJumb);
+}
+
+#Galery {
+  background-color: var(--warnaJumb);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#Galery .row > * {
+  padding: 5px;
+}
+
+.time-section {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.time-section:first-child {
+  margin-left: 0;
+}
+
+.time-section > .value {
+  background-color: #ffc4004d;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.time-label {
+  font-size: 11px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+#area-waktu {
+  margin: 50px;
+}
+
+#ucapan-ultah {
+  margin: 50px;
+  font-size: 50px;
+  text-align: center;
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .gallery-img {
+    margin-left: 40px;
+    width: 80%;
+  }
+
+  .time-section > .value{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 80px;
+  }
+
+}
